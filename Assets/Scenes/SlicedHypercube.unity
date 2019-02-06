@@ -146,6 +146,7 @@ MonoBehaviour:
   normal: {x: 1, y: 1, z: 1, w: 1}
   position: 1
   autoShift: 1
+  period: 5
   positionRange: {x: -4, y: 4}
 --- !u!23 &341511353
 MeshRenderer:
@@ -188,7 +189,7 @@ MeshFilter:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 341511351}
-  m_Mesh: {fileID: 2042817209}
+  m_Mesh: {fileID: 1775032008}
 --- !u!4 &341511355
 Transform:
   m_ObjectHideFlags: 0
@@ -357,7 +358,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
---- !u!43 &2042817209
+--- !u!43 &1775032008
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
